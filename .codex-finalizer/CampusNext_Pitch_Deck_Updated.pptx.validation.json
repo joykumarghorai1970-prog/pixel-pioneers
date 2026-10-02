@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "5f6eb6b6a996823dad2f76cca44e2f6bf42e93b102533d3d0f75218ef6d2aff0",
+  "byteCount": 38408,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 7,
+    "relationship_part_count": 19,
+    "slide_count": 7,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 112,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Calibri",
+        "Georgia"
+      ],
+      "observed_font_use_counts": {
+        "Calibri": 92,
+        "Georgia": 20
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 7,
+    "slide_size_in": [
+      10,
+      5.625
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 112,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Calibri",
+        "Georgia"
+      ],
+      "observed_font_use_counts": {
+        "Calibri": 92,
+        "Georgia": 20
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "reference",
+    "approvedFamilies": [
+      "Georgia",
+      "Calibri"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": "a29412a160e99d32b51b9311ad4f582eed5334c64d7a80e33544a4f30485bf90",
+    "referenceFontsVerifiedInEncodedText": true,
+    "checked_text_script_count": 112,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Calibri",
+      "Georgia"
+    ],
+    "observed_font_use_counts": {
+      "Calibri": 92,
+      "Georgia": 20
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 7,
+    "sha256": "5f6eb6b6a996823dad2f76cca44e2f6bf42e93b102533d3d0f75218ef6d2aff0",
+    "runtimeNodeModules": "C:\\Users\\ranuk\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "nodeExecutable": "C:\\Users\\ranuk\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 0,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [],
+    "slide_count": 7,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "5f6eb6b6a996823dad2f76cca44e2f6bf42e93b102533d3d0f75218ef6d2aff0",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 7,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "9144000,5143500",
+    "--validate-bullet-geometry",
+    "--validate-heading-fit",
+    "--cover-role",
+    "none",
+    "--expected-slide-count",
+    "7",
+    "--approved-font-family",
+    "Georgia",
+    "--approved-font-family",
+    "Calibri"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": "portable",
+    "sourceChartOwnersExplicitlyDeclared": true,
+    "validatorRan": false,
+    "passed": true
+  },
+  "sourceTemplateFidelity": {
+    "report": {
+      "coverage_ratio": 1,
+      "dimensions_match": null,
+      "generated_slide_count": 7,
+      "geometry_match": null,
+      "issue_codes": [],
+      "matched_family_count": 1,
+      "matched_generated_slide_count": 7,
+      "minimum_coverage_ratio": 1,
+      "passed": true,
+      "photographic_background_matched": null,
+      "photographic_background_required": false,
+      "prompt_or_slide_text_included": false,
+      "reference_family_count": 1,
+      "schema_version": "template_source_fidelity.v1",
+      "status": "passed"
+    },
+    "exitCode": 0,
+    "referenceFamilyCount": 1,
+    "matchedFamilyCount": 1,
+    "coverageRatio": 1,
+    "minimumCoverageRatio": 1,
+    "sourceSha256": "a29412a160e99d32b51b9311ad4f582eed5334c64d7a80e33544a4f30485bf90"
+  }
+}

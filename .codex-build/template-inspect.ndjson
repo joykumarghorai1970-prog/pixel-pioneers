@@ -1,0 +1,129 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"DEFAULT"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"Kinetex Lab × Notion","textShapes":5}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"name":"Text 0","text":"Kinetex Lab × Notion","textPreview":"Kinetex Lab × Notion","textChars":20,"textLines":1,"bbox":[67.2,96,825.6,38.4]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"Text 1","text":"[Your Project Name]","textPreview":"[Your Project Name]","textChars":19,"textLines":1,"bbox":[67.2,144,825.6,96]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"Text 2","text":"[One-line tagline: what it does and for whom]","textPreview":"[One-line tagline: what it does and for whom]","textChars":45,"textLines":1,"bbox":[67.2,240,825.6,48]}
+{"kind":"shape","id":"sh/65g3298r","slide":1,"name":"Shape 3","bbox":[67.2,307.2,288,0]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"name":"Text 4","text":"Problem ID: KBC-NOTION-0[1 / 2 / 3]\nTeam name: [Team]   |   Members: [Name 1, Name 2, Name 3, Name 4]\nCollege: [KIIT]   |   Demo link: [URL]   |   Repo: [GitHub URL]","textPreview":"Problem ID: KBC-NOTION-0[1 / 2 / 3] | Team name: [Team]   |   Members: [Name 1, Name 2, Name 3, Name 4] | College: [KIIT]   |   Demo link...","textChars":165,"textLines":3,"bbox":[67.2,326.4,825.6,96]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"name":"Text 5","text":"Kaun Banega Codepati 2026","textPreview":"Kaun Banega Codepati 2026","textChars":25,"textLines":1,"bbox":[67.2,480,576,28.8]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":""}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Problem & Users","textShapes":8}
+{"kind":"shape","id":"sh/9072xkry","slide":2,"name":"Shape 0","bbox":[0,0,960,11.52]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"Text 1","text":"Problem & Users","textPreview":"Problem & Users","textChars":15,"textLines":1,"bbox":[48,28.8,864,57.6]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"Text 2","text":"Problem Understanding (15%)","textPreview":"Problem Understanding (15%)","textChars":27,"textLines":1,"bbox":[48,86.4,864,33.6]}
+{"kind":"shape","id":"sh/a10jqpsj","slide":2,"name":"Shape 3","bbox":[48,126.72,864,0]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"Text 4","text":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textPreview":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textChars":48,"textLines":1,"bbox":[48,504,672,24]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"Text 5","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[864,504,48,24]}
+{"kind":"shape","id":"sh/r65knqtk","slide":2,"name":"Shape 6","bbox":[48,148.8,422.4,326.4]}
+{"kind":"shape","id":"sh/q5wjelsz","slide":2,"name":"Shape 7","bbox":[48,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"Text 8","text":"The problem","textPreview":"The problem","textChars":11,"textLines":1,"bbox":[67.2,158.4,393.6,33.6]}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"name":"Text 9","text":"What is scattered or broken today?\nWho feels the pain, and how often?\nReal example / scenario (e.g. missed deadline, lost decision)\nCost of the status quo","textPreview":"What is scattered or broken today? | Who feels the pain, and how often? | Real example / scenario (e.g. missed deadline, lost decision) |...","textChars":154,"textLines":4,"bbox":[67.2,196.8,388.8,268.8]}
+{"kind":"shape","id":"sh/mtwrmxg7","slide":2,"name":"Shape 10","bbox":[489.6,148.8,422.4,326.4]}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"name":"Shape 11","bbox":[489.6,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"name":"Text 12","text":"Users & roles","textPreview":"Users & roles","textChars":13,"textLines":1,"bbox":[508.8,158.4,393.6,33.6]}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"name":"Text 13","text":"Role 1: [e.g. Student / Researcher / Organizer]\nRole 2: [e.g. Club coordinator / Mentor / Volunteer]\nWhat each role needs to get done\nReference scenario we are solving","textPreview":"Role 1: [e.g. Student / Researcher / Organizer] | Role 2: [e.g. Club coordinator / Mentor / Volunteer] | What each role needs to get done...","textChars":167,"textLines":4,"bbox":[508.8,196.8,388.8,268.8]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":""}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"Solution & Workflow","textShapes":13}
+{"kind":"shape","id":"sh/cza94vmx","slide":3,"name":"Shape 0","bbox":[0,0,960,11.52]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"Text 1","text":"Solution & Workflow","textPreview":"Solution & Workflow","textChars":19,"textLines":1,"bbox":[48,28.8,864,57.6]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"Text 2","text":"Proposed workflow, end to end","textPreview":"Proposed workflow, end to end","textChars":29,"textLines":1,"bbox":[48,86.4,864,33.6]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"Shape 3","bbox":[48,126.72,864,0]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"name":"Text 4","text":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textPreview":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textChars":48,"textLines":1,"bbox":[48,504,672,24]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"Text 5","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[864,504,48,24]}
+{"kind":"shape","id":"sh/m5cra54z","slide":3,"name":"Shape 6","bbox":[48,153.6,158.4,76.8]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"name":"Text 7","text":"1. Ingest","textPreview":"1. Ingest","textChars":9,"textLines":1,"bbox":[48,153.6,158.4,76.8]}
+{"kind":"shape","id":"sh/n2l4fq98","slide":3,"name":"Shape 8","bbox":[222.72,153.6,158.4,76.8]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"Text 9","text":"2. Structure (AI)","textPreview":"2. Structure (AI)","textChars":17,"textLines":1,"bbox":[222.72,153.6,158.4,76.8]}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"name":"Shape 10","bbox":[397.44,153.6,158.4,76.8]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"Text 11","text":"3. Sync to Notion","textPreview":"3. Sync to Notion","textChars":17,"textLines":1,"bbox":[397.44,153.6,158.4,76.8]}
+{"kind":"shape","id":"sh/v6l4jq94","slide":3,"name":"Shape 12","bbox":[572.16,153.6,158.4,76.8]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"name":"Text 13","text":"4. Act / Search","textPreview":"4. Act / Search","textChars":15,"textLines":1,"bbox":[572.16,153.6,158.4,76.8]}
+{"kind":"shape","id":"sh/x8nml0ra","slide":3,"name":"Shape 14","bbox":[746.88,153.6,158.4,76.8]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"name":"Text 15","text":"5. Insights","textPreview":"5. Insights","textChars":11,"textLines":1,"bbox":[746.88,153.6,158.4,76.8]}
+{"kind":"shape","id":"sh/ja54na9g","slide":3,"name":"Shape 16","bbox":[48,254.4,422.4,220.8]}
+{"kind":"shape","id":"sh/i9w3u58v","slide":3,"name":"Shape 17","bbox":[48,254.4,6.72,220.8]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"name":"Text 18","text":"What happens at each step","textPreview":"What happens at each step","textChars":25,"textLines":1,"bbox":[67.2,264,393.6,33.6]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"name":"Text 19","text":"Input: [announcement / notes / event change]\nAI output: [records, tasks, decisions, links]\nNotion write: [pages & databases touched]","textPreview":"Input: [announcement / notes / event change] | AI output: [records, tasks, decisions, links] | Notion write: [pages & databases touched]","textChars":132,"textLines":3,"bbox":[67.2,302.4,388.8,163.2]}
+{"kind":"shape","id":"sh/03ix43e5","slide":3,"name":"Shape 20","bbox":[489.6,254.4,422.4,220.8]}
+{"kind":"shape","id":"sh/14ryd8fq","slide":3,"name":"Shape 21","bbox":[489.6,254.4,6.72,220.8]}
+{"kind":"textbox","id":"sh/6d0fytg3","slide":3,"name":"Text 22","text":"Key features","textPreview":"Key features","textChars":12,"textLines":1,"bbox":[508.8,264,393.6,33.6]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"name":"Text 23","text":"Mandatory requirements covered: [list]\nAdvanced layer features: [list]\nRole-based views: [which roles]","textPreview":"Mandatory requirements covered: [list] | Advanced layer features: [list] | Role-based views: [which roles]","textChars":102,"textLines":3,"bbox":[508.8,302.4,388.8,163.2]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Architecture & Data Flow","textShapes":15}
+{"kind":"shape","id":"sh/1cj2d8b6","slide":4,"name":"Shape 0","bbox":[0,0,960,11.52]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"Text 1","text":"Architecture & Data Flow","textPreview":"Architecture & Data Flow","textChars":24,"textLines":1,"bbox":[48,28.8,864,57.6]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"Text 2","text":"Technical Implementation (20%)","textPreview":"Technical Implementation (20%)","textChars":30,"textLines":1,"bbox":[48,86.4,864,33.6]}
+{"kind":"shape","id":"sh/ql8jytsj","slide":4,"name":"Shape 3","bbox":[48,126.72,864,0]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"Text 4","text":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textPreview":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textChars":48,"textLines":1,"bbox":[48,504,672,24]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"name":"Text 5","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[864,504,48,24]}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"name":"Shape 6","bbox":[48,153.6,192,105.6]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"name":"Text 7","text":"Frontend\n[React / Flutter / ...]","textPreview":"Frontend | [React / Flutter / ...]","textChars":32,"textLines":2,"bbox":[48,153.6,192,105.6]}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"name":"Text 8","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[240,187.2,28.8,38.4]}
+{"kind":"shape","id":"sh/5cva1cfq","slide":4,"name":"Shape 9","bbox":[268.8,153.6,192,105.6]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"name":"Text 10","text":"Backend / API\n[FastAPI / Node / ...]","textPreview":"Backend / API | [FastAPI / Node / ...]","textChars":36,"textLines":2,"bbox":[268.8,153.6,192,105.6]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"name":"Text 11","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[460.8,187.2,28.8,38.4]}
+{"kind":"shape","id":"sh/w72947yt","slide":4,"name":"Shape 12","bbox":[489.6,153.6,192,105.6]}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"name":"Text 13","text":"AI layer\n[LLM + RAG + extraction]","textPreview":"AI layer | [LLM + RAG + extraction]","textChars":33,"textLines":2,"bbox":[489.6,153.6,192,105.6]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"name":"Text 14","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[681.6,187.2,28.8,38.4]}
+{"kind":"shape","id":"sh/v6tsv2xo","slide":4,"name":"Shape 15","bbox":[710.4,153.6,192,105.6]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"name":"Text 16","text":"Notion API\n[Databases + pages]","textPreview":"Notion API | [Databases + pages]","textChars":30,"textLines":2,"bbox":[710.4,153.6,192,105.6]}
+{"kind":"shape","id":"sh/h4fa9wfy","slide":4,"name":"Shape 17","bbox":[48,283.2,422.4,192]}
+{"kind":"shape","id":"sh/p0batw72","slide":4,"name":"Shape 18","bbox":[48,283.2,6.72,192]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"name":"Text 19","text":"Data model","textPreview":"Data model","textChars":10,"textLines":1,"bbox":[67.2,292.8,393.6,33.6]}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"name":"Text 20","text":"Databases & key relations (e.g. Event → Task → Member)\nPermissions / auth approach\nWhere AI output is labelled vs verified","textPreview":"Databases & key relations (e.g. Event → Task → Member) | Permissions / auth approach | Where AI output is labelled vs verified","textChars":122,"textLines":3,"bbox":[67.2,331.2,388.8,134.4]}
+{"kind":"shape","id":"sh/2xkrih8b","slide":4,"name":"Shape 21","bbox":[489.6,283.2,422.4,192]}
+{"kind":"shape","id":"sh/1wbapc7q","slide":4,"name":"Shape 22","bbox":[489.6,283.2,6.72,192]}
+{"kind":"textbox","id":"sh/gv29g7q5","slide":4,"name":"Text 23","text":"Reliability","textPreview":"Reliability","textChars":11,"textLines":1,"bbox":[508.8,292.8,393.6,33.6]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"name":"Text 24","text":"Sync strategy & error handling\nSource citations / traceability\nTech stack & why","textPreview":"Sync strategy & error handling | Source citations / traceability | Tech stack & why","textChars":79,"textLines":3,"bbox":[508.8,331.2,388.8,134.4]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":""}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"Notion Integration & Innovation","textShapes":8}
+{"kind":"shape","id":"sh/dgbulwnm","slide":5,"name":"Shape 0","bbox":[0,0,960,11.52]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"name":"Text 1","text":"Notion Integration & Innovation","textPreview":"Notion Integration & Innovation","textChars":31,"textLines":1,"bbox":[48,28.8,864,57.6]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"Text 2","text":"Notion Integration (15%) + Innovation (15%)","textPreview":"Notion Integration (15%) + Innovation (15%)","textChars":43,"textLines":1,"bbox":[48,86.4,864,33.6]}
+{"kind":"shape","id":"sh/yhkbe1o7","slide":5,"name":"Shape 3","bbox":[48,126.72,864,0]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"Text 4","text":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textPreview":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textChars":48,"textLines":1,"bbox":[48,504,672,24]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"name":"Text 5","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[864,504,48,24]}
+{"kind":"shape","id":"sh/n6dcr65o","slide":5,"name":"Shape 6","bbox":[48,148.8,422.4,326.4]}
+{"kind":"shape","id":"sh/m5kbi1oj","slide":5,"name":"Shape 7","bbox":[48,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"name":"Text 8","text":"How Notion is used","textPreview":"How Notion is used","textChars":18,"textLines":1,"bbox":[67.2,158.4,393.6,33.6]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"name":"Text 9","text":"Databases created / synced: [names]\nRead AND write operations: [examples]\nNotion is active in the workflow, not a static page\nLive-sync proof: [what we will show]","textPreview":"Databases created / synced: [names] | Read AND write operations: [examples] | Notion is active in the workflow, not a static page | Live-...","textChars":162,"textLines":4,"bbox":[67.2,196.8,388.8,268.8]}
+{"kind":"shape","id":"sh/ahkvi1cb","slide":5,"name":"Shape 10","bbox":[489.6,148.8,422.4,326.4]}
+{"kind":"shape","id":"sh/v2twb6dw","slide":5,"name":"Shape 11","bbox":[489.6,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"name":"Text 12","text":"What makes us different","textPreview":"What makes us different","textChars":23,"textLines":1,"bbox":[508.8,158.4,393.6,33.6]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"name":"Text 13","text":"Our unique idea: [1 line]\nAdvanced features built: [RAG, impact analysis, simulation...]\nAI output vs verified source: [how shown]\nCompared with existing tools: [gap we fill]","textPreview":"Our unique idea: [1 line] | Advanced features built: [RAG, impact analysis, simulation...] | AI output vs verified source: [how shown] | ...","textChars":174,"textLines":4,"bbox":[508.8,196.8,388.8,268.8]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":""}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"Prototype & Live Demo","textShapes":7}
+{"kind":"shape","id":"sh/yhg7epsj","slide":6,"name":"Shape 0","bbox":[0,0,960,11.52]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"name":"Text 1","text":"Prototype & Live Demo","textPreview":"Prototype & Live Demo","textChars":21,"textLines":1,"bbox":[48,28.8,864,57.6]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"Text 2","text":"Working Prototype (15%) + Presentation & Demo (10%)","textPreview":"Working Prototype (15%) + Presentation & Demo (10%)","textChars":51,"textLines":1,"bbox":[48,86.4,864,33.6]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"name":"Shape 3","bbox":[48,126.72,864,0]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"name":"Text 4","text":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textPreview":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textChars":48,"textLines":1,"bbox":[48,504,672,24]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"Text 5","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[864,504,48,24]}
+{"kind":"shape","id":"sh/oryp8fah","slide":6,"name":"Shape 6","bbox":[48,148.8,441.6,326.4]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"name":"Text 7","text":"[Insert screenshot / GIF of the prototype]","textPreview":"[Insert screenshot / GIF of the prototype]","textChars":42,"textLines":1,"bbox":[48,148.8,441.6,326.4]}
+{"kind":"shape","id":"sh/h4bupgn6","slide":6,"name":"Shape 8","bbox":[508.8,148.8,403.2,326.4]}
+{"kind":"shape","id":"sh/w32twb6l","slide":6,"name":"Shape 9","bbox":[508.8,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"name":"Text 10","text":"Demo script (3–5 min)","textPreview":"Demo script (3–5 min)","textChars":21,"textLines":1,"bbox":[528,158.4,374.4,33.6]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"name":"Text 11","text":"1. Input arrives: [scenario]\n2. System structures it, syncs to Notion\n3. Role A takes action\n4. Role B sees update / asks a question\n5. Insight, alert or report\nDemo dataset: [synthetic / real]","textPreview":"1. Input arrives: [scenario] | 2. System structures it, syncs to Notion | 3. Role A takes action | 4. Role B sees update / asks a questio...","textChars":193,"textLines":6,"bbox":[528,196.8,369.6,268.8]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":""}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"Feasibility, Scalability & Next Steps","textShapes":10}
+{"kind":"shape","id":"sh/cb2tkvap","slide":7,"name":"Shape 0","bbox":[0,0,960,11.52]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"name":"Text 1","text":"Feasibility, Scalability & Next Steps","textPreview":"Feasibility, Scalability & Next Steps","textChars":37,"textLines":1,"bbox":[48,28.8,864,57.6]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"Text 2","text":"Feasibility & Scalability (10%)","textPreview":"Feasibility & Scalability (10%)","textChars":31,"textLines":1,"bbox":[48,86.4,864,33.6]}
+{"kind":"shape","id":"sh/zedcfa9g","slide":7,"name":"Shape 3","bbox":[48,126.72,864,0]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"name":"Text 4","text":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textPreview":"Kaun Banega Codepati 2026 | Kinetex Lab × Notion","textChars":48,"textLines":1,"bbox":[48,504,672,24]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"name":"Text 5","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[864,504,48,24]}
+{"kind":"shape","id":"sh/eh0ba1sr","slide":7,"name":"Shape 6","bbox":[48,148.8,278.4,326.4]}
+{"kind":"shape","id":"sh/fi9c369c","slide":7,"name":"Shape 7","bbox":[48,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"name":"Text 8","text":"Feasibility","textPreview":"Feasibility","textChars":11,"textLines":1,"bbox":[67.2,158.4,249.6,33.6]}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"name":"Text 9","text":"Works with: [existing campus tools]\nSetup effort: [low / medium]\nCost: [APIs, hosting]","textPreview":"Works with: [existing campus tools] | Setup effort: [low / medium] | Cost: [APIs, hosting]","textChars":86,"textLines":3,"bbox":[67.2,196.8,244.8,268.8]}
+{"kind":"shape","id":"sh/xcz2l03q","slide":7,"name":"Shape 10","bbox":[340.8,148.8,278.4,326.4]}
+{"kind":"shape","id":"sh/cbq1sv25","slide":7,"name":"Shape 11","bbox":[340.8,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"name":"Text 12","text":"Scalability","textPreview":"Scalability","textChars":11,"textLines":1,"bbox":[360,158.4,249.6,33.6]}
+{"kind":"textbox","id":"sh/25ojml43","slide":7,"name":"Text 13","text":"From 1 club to whole campus\nMulti-team / multi-event\nPerformance & rate limits","textPreview":"From 1 club to whole campus | Multi-team / multi-event | Performance & rate limits","textChars":78,"textLines":3,"bbox":[360,196.8,244.8,268.8]}
+{"kind":"shape","id":"sh/p8fih03e","slide":7,"name":"Shape 14","bbox":[633.6,148.8,278.4,326.4]}
+{"kind":"shape","id":"sh/o761ov2t","slide":7,"name":"Shape 15","bbox":[633.6,148.8,6.72,326.4]}
+{"kind":"textbox","id":"sh/f2d0b6lc","slide":7,"name":"Text 16","text":"Roadmap","textPreview":"Roadmap","textChars":7,"textLines":1,"bbox":[652.8,158.4,249.6,33.6]}
+{"kind":"textbox","id":"sh/eh4jil4r","slide":7,"name":"Text 17","text":"Next 30 days: [..]\nFuture features: [..]\nTeam ask / thank you","textPreview":"Next 30 days: [..] | Future features: [..] | Team ask / thank you","textChars":61,"textLines":3,"bbox":[652.8,196.8,244.8,268.8]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":""}

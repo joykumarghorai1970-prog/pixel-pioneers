@@ -1,0 +1,52 @@
+.onboarding-shell{min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:28px 18px;background:linear-gradient(116deg,#0b746c 0%,#125d65 43%,#1e4262 100%)}
+.onboarding-card{width:min(100%,600px);padding:40px;border-radius:25px;background:#fff;box-shadow:0 24px 70px #092c3340;color:#14263a}
+.onboarding-brand{display:flex;align-items:center;justify-content:center;gap:15px;margin:0 auto 38px;font-family:'Manrope',Inter,system-ui,sans-serif;font-size:24px;font-weight:800;letter-spacing:-1px}
+.onboarding-mark{width:56px;height:56px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(145deg,#0e8075,#12aa9b);box-shadow:0 7px 15px #0d746e3b;color:white;font-size:18px;letter-spacing:-.5px}
+.onboarding-welcome{text-align:center;padding:40px}
+.onboarding-welcome .onboarding-brand{margin-bottom:60px}
+.welcome-cap{font-size:48px;line-height:1;margin-bottom:36px}
+.onboarding-card h1{font-size:30px;line-height:1.3;letter-spacing:-.8px;text-align:center;color:#14263a}
+.onboarding-intro{margin:13px auto 0;text-align:center;color:#61718a;font-size:18px;line-height:1.6}
+.onboarding-field-label{text-align:left;font-size:16px;margin:33px 0 17px}
+.role-options{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.role-option{min-height:143px;padding:17px 10px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;border:2px solid #d4dce7;border-radius:15px;background:#fff;transition:background-color .15s,border-color .15s}
+.role-option:hover{border-color:#0f8b80}
+.role-option.selected{border-color:#07877b;background:#cdf8ef}
+.role-emoji{font-size:29px;line-height:1.2;margin-bottom:4px}
+.role-option strong{font-size:17px;font-weight:700;color:#14263a}
+.role-option small{font-size:14px;color:#61718a}
+.onboarding-primary{width:100%;min-height:55px;margin-top:29px;font-size:16px;border-radius:10px}
+.onboarding-primary .icon{width:17px;height:17px}
+.onboarding-step-card{padding:39px 40px 40px}
+.onboarding-step-card .onboarding-brand{margin-bottom:38px}
+.step-label{margin:0 0 19px;text-align:center;font-size:14px;letter-spacing:.5px;font-weight:700;color:#087d73}
+.onboarding-step-card h1{font-size:30px}
+.onboarding-step-card .onboarding-intro{margin-top:13px}
+.interest-list{display:grid;grid-template-columns:max-content max-content;justify-content:center;gap:10px;margin:31px 0 29px}
+.interest-chip{min-height:44px;padding:8px 16px;border:1px solid #d3dce8;border-radius:24px;background:#fff;color:#465c79;font-size:15px;white-space:nowrap}
+.interest-chip:hover{border-color:#0a8b7d}
+.interest-chip.selected{border-color:#0b8f82;background:#d0f8ef;color:#174d4c;font-weight:650}
+.onboarding-actions{display:flex;justify-content:flex-end;align-items:center;gap:14px;margin-top:25px}
+.onboarding-actions .btn{min-height:54px;padding:12px 21px;font-size:16px;border-radius:10px}
+.onboarding-actions .btn.primary{min-width:146px}
+.onboarding-actions .btn.primary .icon{width:16px;height:16px}
+.onboarding-form{margin-top:33px}
+.onboarding-label{display:flex;align-items:center;gap:10px;margin-bottom:11px;font-size:16px;font-weight:650;color:#14263a}
+.onboarding-label span{padding:3px 9px;border-radius:12px;background:#f3f5f8;color:#94a3b8;font-size:12px;font-weight:500}
+.onboarding-input{width:100%;height:55px;padding:0 17px;border:1px solid #cbd5e1;border-radius:10px;background:#fff;color:#14263a;font-size:16px}
+.onboarding-input::placeholder{color:#8290a3}
+.availability-label{margin-top:22px;margin-bottom:12px}
+.availability-options{display:flex;flex-wrap:wrap;gap:17px;margin:0 0 24px;color:#536985;font-size:15px}
+.availability-options label{display:flex;align-items:center;gap:7px;white-space:nowrap;cursor:pointer}
+.availability-options input{width:16px;height:16px;margin:0;accent-color:#07877b}
+.onboarding-switch-row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px 0}
+.onboarding-switch-row strong{font-size:16px;font-weight:650;color:#14263a}
+.onboarding-switch-row p{max-width:380px;margin-top:3px;color:#62738d;font-size:15px;line-height:1.5}
+.onboarding-switch{flex:none;width:56px;height:32px;padding:4px;border-radius:20px;background:#cbd5e1;transition:background-color .15s}
+.onboarding-switch span{display:block;width:24px;height:24px;border-radius:50%;background:#fff;box-shadow:0 1px 3px #182b3c30;transition:transform .15s}
+.onboarding-switch.on{background:#0d8479}
+.onboarding-switch.on span{transform:translateX(24px)}
+.onboarding-step-card .onboarding-actions{margin-top:20px}
+@media(max-width:650px){.onboarding-shell{padding:16px}.onboarding-card,.onboarding-welcome,.onboarding-step-card{padding:27px 22px;border-radius:20px}.onboarding-brand,.onboarding-step-card .onboarding-brand{margin-bottom:30px}.onboarding-welcome .onboarding-brand{margin-bottom:38px}.onboarding-brand{font-size:21px}.onboarding-mark{width:48px;height:48px}.welcome-cap{font-size:43px;margin-bottom:27px}.onboarding-card h1,.onboarding-step-card h1{font-size:25px}.onboarding-intro{font-size:15px}.desktop-break{display:none}.onboarding-field-label{margin-top:27px}.role-options{gap:10px}.role-option{min-height:126px;padding-inline:5px}.role-option small{font-size:12px}.interest-list{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:8px;margin-top:25px}.interest-chip{min-height:40px;padding:7px 12px;font-size:13px}.onboarding-form{margin-top:26px}.availability-options{gap:12px 16px;font-size:13px}.onboarding-switch-row{gap:12px}.onboarding-switch-row p{font-size:13px}.onboarding-actions{gap:9px}.onboarding-actions .btn{padding:10px 14px;font-size:14px}.onboarding-actions .btn.primary{min-width:130px}}
+@media(max-width:390px){.onboarding-card,.onboarding-welcome,.onboarding-step-card{padding:24px 17px}.onboarding-actions .btn{padding-inline:11px}.onboarding-actions .btn.primary{min-width:unset}.role-option strong{font-size:15px}.role-option small{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.role-option,.onboarding-switch,.onboarding-switch span{transition:none}}

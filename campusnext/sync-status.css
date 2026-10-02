@@ -1,0 +1,10 @@
+.notion-sync-badge{display:inline-flex;align-items:center;gap:8px;min-height:36px;max-width:235px;padding:0 11px;border:1px solid #dfe7e2;border-radius:20px;background:#fbfdfb;color:#49635a;text-decoration:none;font-size:10px;font-weight:650;white-space:nowrap}
+.notion-sync-badge:hover{background:#f1f7f3;border-color:#b8ccc0}
+.notion-sync-dot{width:8px;height:8px;flex:none;border-radius:50%;background:#98a59e}
+.notion-sync-badge.synced .notion-sync-dot,.notion-sync-badge.ready .notion-sync-dot{background:#13856f}
+.notion-sync-badge.syncing .notion-sync-dot,.notion-sync-badge.checking .notion-sync-dot{background:#c08b27;animation:sync-pulse 1.2s ease-in-out infinite}
+.notion-sync-badge.error .notion-sync-dot,.notion-sync-badge.offline .notion-sync-dot{background:#b66b3d}
+.notion-sync-badge.error{color:#8c492c;border-color:#ead4c5;background:#fffaf6}
+@keyframes sync-pulse{50%{opacity:.35}}
+@media(max-width:767px){.notion-sync-badge{width:34px;min-width:34px;height:34px;min-height:34px;padding:0;justify-content:center;border-color:transparent;background:transparent}.notion-sync-badge:hover{background:#eff5f1;border-color:transparent}.notion-sync-text{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}}
+@media(prefers-reduced-motion:reduce){.notion-sync-badge.syncing .notion-sync-dot,.notion-sync-badge.checking .notion-sync-dot{animation:none}}

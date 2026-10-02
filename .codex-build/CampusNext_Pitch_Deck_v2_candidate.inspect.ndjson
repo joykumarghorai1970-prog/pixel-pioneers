@@ -1,0 +1,81 @@
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"Pixel Pioneers × CampusNext","textShapes":5}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"textChars":27,"textLines":1}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"textChars":44,"textLines":1}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"textChars":111,"textLines":3}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"textChars":25,"textLines":1}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"Sources: CampusNext_PRD.md, CampusNext_System_Flow.md, CampusNext_UIUX.md. Te..."}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Problem & Users","textShapes":8}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"textChars":27,"textLines":1}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"textChars":38,"textLines":1}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"textChars":209,"textLines":4}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"textChars":13,"textLines":1}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"textChars":266,"textLines":4}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"Sources: CampusNext_PRD.md sections 1–4 and CampusNext_System_Flow.md section..."}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"Solution & Workflow","textShapes":13}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"textChars":19,"textLines":1}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"textChars":38,"textLines":1}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"textChars":25,"textLines":1}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"textChars":180,"textLines":3}
+{"kind":"textbox","id":"sh/6d0fytg3","slide":3,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"textChars":159,"textLines":4}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"Sources: CampusNext_PRD.md sections 1, 5–8 and CampusNext_System_Flow.md sect..."}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Architecture & Data Flow","textShapes":15}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"textChars":24,"textLines":1}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"textChars":30,"textLines":1}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"textChars":38,"textLines":1}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"textChars":40,"textLines":2}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"textChars":37,"textLines":2}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"textChars":42,"textLines":2}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"textChars":34,"textLines":2}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"textChars":172,"textLines":3}
+{"kind":"textbox","id":"sh/gv29g7q5","slide":4,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"textChars":161,"textLines":3}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"Sources: CampusNext_PRD.md sections 9–10, CampusNext_System_Flow.md section 4..."}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"Notion Integration & Innovation","textShapes":8}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"textChars":31,"textLines":1}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"textChars":43,"textLines":1}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"textChars":38,"textLines":1}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"textChars":18,"textLines":1}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"textChars":288,"textLines":4}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"textChars":228,"textLines":4}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"Sources: CampusNext_PRD.md sections 7–10, CampusNext_System_Flow.md sections ..."}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"Prototype & Live Demo","textShapes":7}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"textChars":21,"textLines":1}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"textChars":51,"textLines":1}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"textChars":38,"textLines":1}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"textChars":198,"textLines":6}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"textChars":21,"textLines":1}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"textChars":291,"textLines":6}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"Sources: campusnext/README.md demonstration sequence and verification notes; ..."}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"Feasibility, Scalability & Next Steps","textShapes":10}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"textChars":37,"textLines":1}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"textChars":31,"textLines":1}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"textChars":38,"textLines":1}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"textChars":167,"textLines":3}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/25ojml43","slide":7,"textChars":175,"textLines":3}
+{"kind":"textbox","id":"sh/f2d0b6lc","slide":7,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/eh4jil4r","slide":7,"textChars":192,"textLines":3}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"Sources: campusnext/README.md honest implementation boundary and CampusNext_P..."}
+{"kind":"notice","message":"Truncated: omitted 0 lines. Increase maxChars or narrow target."}
