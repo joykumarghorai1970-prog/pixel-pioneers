@@ -3,5 +3,5 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "start": "node server.js", "test": "node --test domain.test.js" }
+  "scripts": { "start": "node server.js", "test": "node --test *.test.js", "notion:setup": "node notion-setup.js", "notion:check": "node notion-setup.js --check" }
 }

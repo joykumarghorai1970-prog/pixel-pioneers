@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "notion-mcp-server": {
+      "$typeName": "exa.cascade_plugins_pb.CascadePluginCommandTemplate",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ],
+      "env": {
+        "NOTION_TOKEN": "ntn_mB645224903F8eko529j1F2dAkq0smFuRjVhf0KcmtN1vt",
+        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer ntn_mB645224903F8eko529j1F2dAkq0smFuRjVhf0KcmtN1vt\", \"Notion-Version\": \"2026-03-11\"}"
+      }
+    }
+  }
+}

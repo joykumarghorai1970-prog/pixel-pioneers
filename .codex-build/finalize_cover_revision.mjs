@@ -5,7 +5,7 @@ import { FileBlob, PresentationFile } from "@oai/artifact-tool";
 
 const skillDir = "C:/Users/ranuk/.codex/plugins/cache/openai-primary-runtime/presentations/26.905.11957/skills/presentations";
 const workspaceDir = "C:/Users/ranuk/Documents/PIXEL PIONEEERS";
-const candidatePath = path.join(workspaceDir, ".codex-build", "CampusNext_Pitch_Deck_v3_candidate.pptx");
+const candidatePath = path.join(workspaceDir, ".codex-build", "CampusNext_Pitch_Deck_v4_candidate.pptx");
 const finalPath = path.join(workspaceDir, "output", "pptx", "CampusNext_Pitch_Deck_Updated.pptx");
 const stagingDir = path.join(workspaceDir, ".codex-finalizer");
 await fs.mkdir(stagingDir, { recursive: true });
@@ -34,6 +34,6 @@ const result = await finalizePresentation({
     referenceSha256: "a29412a160e99d32b51b9311ad4f582eed5334c64d7a80e33544a4f30485bf90",
   },
   verifyArtifactToolImport: true,
-  receiptPath: path.join(stagingDir, `${path.basename(finalPath)}.validation-v3.json`),
+  receiptPath: path.join(stagingDir, `${path.basename(finalPath)}.validation-v4.json`),
 });
 console.log(JSON.stringify(result, null, 2));

@@ -3,6 +3,8 @@ const unknown = {status: 'Not announced', details: 'Not announced', verified: fa
 export function seedState() {
   return {
     version: 1,
+    authenticated: false,
+    onboardingComplete: true,
     profile: {name: 'Aarav', fullName: 'Aarav Sharma', course: 'Computer Science · 3rd year', interests: ['Technology', 'Design'], skills: 'React, UI design', availability: '6 hours / week', discoverable: false, shareStreak: false, reminders: true},
     events: [
       {id: 'hack', title: 'Build something that matters.', shortTitle: 'Hack the Campus 2026', category: 'Hackathon', club: 'Google Developer Group', date: '2026-10-10', deadline: '2026-10-05', venue: 'Innovation Hub · Block A', published: true, cover: 'hack', tagline: 'HACK THE CAMPUS', description: 'One campus. A hundred possibilities. Team up to build a practical solution to a real campus problem in this 24-hour hackathon.', eligibility: 'Open to all undergraduate students. Teams of 2–4.', requirements: ['A team of 2–4 students', 'A 300-word idea abstract', 'A working prototype at the final showcase'], food: perk('Lunch included', 'For registered participants'), goodies: perk('Welcome kit', 'First 100 registrants · Stock not confirmed', 'Unknown'), reason: 'Matches your interest in technology and design', teamNeed: 'Frontend developer + designer', updated: '2 Oct, 9:15 AM', source: 'GDG campus announcement · Revision 2'},

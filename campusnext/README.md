@@ -13,7 +13,7 @@ node server.js
 Open http://127.0.0.1:4173. No package installation is required. To run the domain checks:
 
 ```powershell
-node --test domain.test.js
+npm test
 ```
 
 ## Deploy to GitHub Pages
@@ -24,23 +24,37 @@ GitHub Pages does not run the Node server, so Notion sync and other `/api/notion
 
 ## Connect Notion
 
-The server now includes a credential-safe Notion adapter. It uses the official REST API from the server, never exposes the token to the browser, and provides `/api/notion/status`, `/api/notion/opportunities`, and `POST /api/notion/opportunities`.
+CampusNext uses a server-side Notion connection for opportunities and events. The API token stays in the ignored `.env.local` file. The Notion plugin in Codex and this application connection are separate.
 
-1. Create an internal Notion integration and copy its secret.
-2. Share the **Opportunities & Events** data source with that integration. The integration needs read content to sync and insert/update content if you want publishing writes.
-3. Copy the data-source ID and create `campusnext/.env.local` from [.env.example](C:/Users/ranuk/Documents/PIXEL%20PIONEEERS/campusnext/.env.example):
+The connected workspace page is [CampusNext](https://www.notion.so/3ed0267559c7808b9282c73280f3bef7). Its [Opportunities & Events database](https://app.notion.com/p/2518d85ee14b4716ab272abe6d559605) has been created and configured locally. No example events are automatically published to it.
 
-```text
-NOTION_API_KEY=your_server_side_secret
-NOTION_OPPORTUNITIES_DATA_SOURCE_ID=your_data_source_id
-NOTION_VERSION=2026-03-11
+### Use it
+
+1. Run `npm start` and open http://127.0.0.1:4173.
+2. In Coordinator → Settings, check the connection and use **Sync opportunities from Notion**. The app also syncs on load and every 60 seconds while the tab is visible and you are not editing a form or dialog.
+3. In Coordinator → Opportunities, use **Publish to Notion** to copy an existing local opportunity, or **Import announcement** to review and publish a new one. Drafts and failed submissions are retained locally; a save is only reported after Notion acknowledges it.
+4. Use **Open in Notion** to manage descriptions, dates, organizers, requirements and perk conditions. Check **Published** to include a record in student discovery. New Notion rows default to unpublished.
+5. **Review / update** saves deadline changes to Notion. A changed deadline creates a review notice in CampusNext. Personal task dates change only after the student accepts them.
+
+Sync retains local records and saved-plan references. Records removed from Notion leave discovery but keep their cached record for existing plans. Application IDs keep a repeated publish from creating another row within this local server. The server checks the last edited timestamp before deadline updates and reports a conflict for a stale record. Notion does not offer an atomic compare-and-set here, so a simultaneous edit between the check and write remains possible. Writes are serialized within one server process; distributed queues are not implemented.
+
+### Set up another workspace
+
+Copy [.env.example](.env.example) to `.env.local` and set `NOTION_API_KEY`. Create a Notion internal connection with read, insert and update content capabilities. Share the intended parent page with it using **••• → Connections**. See [Notion authorization](https://developers.notion.com/guides/get-started/authorization).
+
+Run:
+
+```powershell
+npm run notion:setup -- --parent "YOUR_SHARED_NOTION_PAGE_URL"
+npm run notion:check
+npm start
 ```
 
-4. Restart `node server.js`, then open Coordinator → Settings → Connection health. The status endpoint validates the token and data-source access. Use Sync opportunities from Notion to load authorized records into the interface.
+The setup script creates an **Opportunities & Events** database with the schema in `notion-schema.js`, or reuses a matching child database. It stores its data-source ID and the parent ID in `.env.local` while preserving the token. Re-running setup does not seed data. Restart the server after changing settings. Alternatively set a known `NOTION_OPPORTUNITIES_DATA_SOURCE_ID` directly. API version defaults to `2026-03-11` and can be overridden with `NOTION_VERSION`.
 
-The adapter recognizes common property names such as Title/Name, Event date, Deadline, Organizer, Category, Eligibility, Requirements, Food status/details, Goodies status/details, Venue and Source. Keep the token in `.env.local`; that file is intentionally excluded from the browser bundle and should not be committed.
+The local server only serves an explicit list of browser assets and rejects cross-origin writes. It is bound to 127.0.0.1 and remains a trusted single-user prototype, without campus authentication. Use a dedicated data source containing shareable campus opportunities. Tasks, teams, outcomes and student profiles still live in browser storage.
 
-The prototype uses a fixed demonstration date of **3 October 2026**. All people, source records, events and historical progress are synthetic. Edits persist in this browser's local storage. Profile → Reset demo restores the sample dataset.
+The prototype uses a fixed demonstration date of **3 October 2026**. Its bundled people, events and historical progress are synthetic. Profile → Reset demo restores that local dataset; it does not remove Notion records.
 
 ## Designed experiences
 
@@ -95,12 +109,12 @@ For implementation, use the PRD's domain entities and authorization boundaries. 
 
 ## Honest implementation boundary
 
-This deliverable is the **interactive design**, not the PRD's completed production P0 release. The browser role switch is a presentation control, not authorization. The local HTTP server serves static files only.
+This deliverable is the **interactive design**, not the PRD's completed production P0 release. The browser role switch is a presentation control, not authorization. The local HTTP server serves the browser app and the Notion opportunities API.
 
-Still required for the live release: campus authentication and backend access checks; real scoped Notion reads/writes and revisions; reliable queues/retries/conflict handling; source OCR and AI extraction; production grounded retrieval; the full prescribed dataset; real multi-user invitations; deterministic shared buddy/freeze replay; live time/day-close jobs; reminder delivery and expanded discovery filters. Poster upload is not simulated as successful OCR. Publication and persistence never claim successful Notion synchronization.
+Still required for the live release: campus authentication and backend access checks; Notion persistence for tasks, teams, activity, streaks and outcomes; durable queues and distributed conflict handling; source OCR and AI extraction; production grounded retrieval; the full prescribed dataset; real multi-user invitations; deterministic shared buddy/freeze replay; live time/day-close jobs; reminder delivery and expanded discovery filters. Poster upload is not simulated as successful OCR. Opportunity publication and deadline updates are acknowledged by Notion; other domain actions remain local.
 
 The sample buddy count is seeded separately, with a clearly labeled simulation for today's contribution. It does not implement the PRD's complete historical pair replay. The profile starts with sample progress because it is explicitly a demo account; real onboarding must start empty.
 
 ## Verification
 
-Five Node tests cover verified perk filtering, rejection of exhausted/withdrawn/prize-only benefits, task credit deduplication and daily cap, weekly freeze behavior, delayed-credit recalculation, plan idempotency and task dependencies. Browser checks cover discovery filters, save/plan acceptance, task completion, accepted membership and draft preservation. Mobile was inspected at a 360-pixel viewport for horizontal overflow. These are prototype checks, not a claim of complete WCAG conformance or production authorization testing.
+Fourteen Node tests cover domain rules, configuration precedence, exact publication states, pagination, create deduplication, stale revision and data-source checks, non-destructive sync, throttling, and local HTTP boundaries. A live Notion check verified creation of an unpublished draft, retry deduplication, deadline update and readback; the temporary record was moved to trash afterwards. These checks do not establish production authentication or multi-user authorization.

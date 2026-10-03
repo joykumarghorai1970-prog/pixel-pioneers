@@ -29,7 +29,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p campusnext/_site
-          cp campusnext/index.html campusnext/styles.css campusnext/refinements.css campusnext/onboarding.css campusnext/app.js campusnext/data.js campusnext/domain.js campusnext/_site/
+          cp campusnext/index.html campusnext/styles.css campusnext/refinements.css campusnext/onboarding.css campusnext/sync-status.css campusnext/app.js campusnext/data.js campusnext/domain.js campusnext/_site/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
